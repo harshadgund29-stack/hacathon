@@ -1,0 +1,74 @@
+.footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  bottom: 0px !important;
+  /* position: absolute; */
+  width: 100%;
+  
+}
+
+.footer h6 {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.footer ul li {
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.footer ul li:hover {
+
+  color: #0d6efd;
+  cursor: default;
+}
+
+.emergency-btn {
+  position: fixed;
+  bottom: 230px; 
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dc3545;
+  border-radius: 50%;
+  border: none;
+   z-index: 9999;
+  cursor: pointer;
+  animation: pulse 0.8s infinite ease-in-out !important; 
+  
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    
+    
+
+  }
+  50% {
+    transform: scale(1.05); 
+    background: blue;
+   
+    
+    
+  }
+  100% {
+    transform: scale(1);
+  
+  }
+}
+
+@media (max-width: 768px) {
+  .emergency-btn{
+    height: 40px;
+    width: 40px;
+    bottom: 280px;
+    right: 10px;
+  }
+  .footer{
+    position: relative;
+  }
+} 
+

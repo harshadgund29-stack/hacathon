@@ -1,0 +1,73 @@
+@media (max-width: 780px) {
+    .img {
+        height: 75vh !important;
+    }
+
+    .hero {
+        top: 40% !important;
+        h1 {
+            font-size: 25px !important;
+        }
+        #fade{
+            font-size: 20px !important;
+        }
+        h5{
+            font-size: 16px ;
+            font-weight: lighter;
+            text-shadow: 1px 1px 12px black;
+        }
+        h6{
+            padding: 5px 5px !important;
+            font-size: 12px !important;
+            width: 70vw !important;
+            img{
+                height: 40px !important;
+                filter: drop-shadow(1px 1px 2px white   );
+            }
+        }
+
+    }
+
+
+}
+
+
+#fade{
+    text-shadow: 1px 1px 12px rgba(248, 234, 234, 0.849);
+
+ 
+}
+.img {
+    filter: brightness(70%);
+
+
+}
+
+.dropdown{
+    button:hover{
+        background: blue;
+        color: white;
+    }
+}
+
+.hero {
+    h6 {
+        background: rgba(14, 14, 14, 0.199);
+        border: 1px white solid;
+        width: fit-content;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h6:hover {
+        background: rgba(244, 241, 241, 0.699);
+        border: 1px rgb(12, 12, 12) solid;
+        color: black !important;
+        cursor: default;
+    }
+}
+
