@@ -1,0 +1,69 @@
+{
+    "reports": [
+      {
+        "id": "r101",
+        "type": "Accident",
+        "location": { "latitude": 18.6263, "longitude": 73.8055},
+        "description": "Two-car collision, left lane blocked",
+        "severity": "High",
+        "time": "2025-09-27T10:30:00Z",
+        "reported_by": "user123",
+        "status": "active",
+        "upvotes": 3,
+        "downvotes": 1
+
+      },
+      {
+        "id": "r102",
+        "type": "Haivy Rain",
+        "location": { "latitude": 18.5246, "longitude": 73.8786 },
+        "description": "Haivy Rain, Bike Sliped",
+        "severity": "Medium",
+        "time": "2025-09-27T10:47:00Z",
+        "reported_by": "abc",
+        "status": "active",
+        "upvotes": 1,
+        "downvotes": 0
+       
+      },
+          {
+            "id": "r101",
+            "type": "Accident",
+            "location": { "latitude": 19.076, "longitude": 72.8777 },
+            "description": "Two-car collision, left lane blocked",
+            "severity": "High",
+            "time": "2025-09-27T10:00:00Z",
+            "reported_by": "user123",
+            "status": "active",
+            "upvotes": 4,
+            "downvotes": 1
+            
+          },
+          {
+            "id": "r102",
+            "type": "Traffic Jam",
+            "location": { "latitude": 28.6139, "longitude": 77.2090 },
+            "description": "Heavy traffic near Connaught Place",
+            "severity": "Medium",
+            "time": "2025-09-27T10:00:00Z",
+            "reported_by": "user567",
+            "status": "active",
+            "upvotes": 3,
+            "downvotes": 0
+          },
+          {
+            "id": "r103",
+            "type": "Pothole",
+            "location": { "latitude": 12.9716, "longitude": 77.5946 },
+            "description": "Large pothole on main road",
+            "severity": "Low",
+            "time": "2025-09-27T10:00:00Z",
+            "reported_by": "user321",
+            "status": "active",
+            "upvotes": 2,
+            "downvotes": 0
+          }
+        
+    ]
+  }
+  

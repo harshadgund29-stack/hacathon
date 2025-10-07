@@ -1,0 +1,19 @@
+@media (max-width: 780px){
+    #main{
+        flex-direction: column;
+    }
+    #sidebar{
+        display: flex;
+        width: 100vw !important;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 680px){
+    
+    #sidebar{
+       flex-direction: column;
+        width: 100vw !important;
+        gap: 50px;
+    }
+}

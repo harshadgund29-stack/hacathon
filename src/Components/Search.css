@@ -1,0 +1,17 @@
+.form-control::placeholder{
+ color: white;
+ opacity: 0.4;
+}
+.form-control{
+    background: rgba(68, 66, 66, 0.615);
+    
+}
+.form-control:focus{
+    background: rgba(49, 44, 44, 0.615);
+    color: white;
+}
+ @media (max-width:780px){
+    .inp{
+        flex-direction: column;
+    }
+ }
